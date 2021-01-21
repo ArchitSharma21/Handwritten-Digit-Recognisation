@@ -5,6 +5,7 @@ Using Deep Learning to recognize Handwritten Digits
 This is probably one of the most popular datasets among machine learning and deep learning enthusiasts. The MNIST dataset contains 60,000 training images of handwritten digits from zero to nine and 10,000 images for testing. So, the MNIST dataset has 10 different classes. The handwritten digits images are represented as a 28×28 matrix where each cell contains grayscale pixel value.
 
 # In the training file
+
     1. Import the libraries and load the dataset
        First, import all the modules that are needed for training our model. The Keras library already contains some datasets and MNIST is one of them. So we can easily import the dataset and start working with it. The mnist.load_data() method returns us the training data, its labels and also the testing data and its labels.
     2. Preprocess the data
